@@ -2,7 +2,8 @@
 
 An AI meeting copilot that listens to your microphone, transcribes speech in real time, and surfaces 3 contextually relevant suggestions every ~30 seconds. Click any suggestion for a detailed answer. Ask follow-up questions in the chat.
 
-**Live demo:** _deploy to Vercel and paste URL here_  
+**Live demo:** https://live-suggestions-assignment.vercel.app/
+
 **Stack:** Next.js 15 · React 19 · TypeScript · Tailwind CSS · Groq SDK  
 **Models:** Whisper Large V3 (transcription) · GPT-OSS 120B (`openai/gpt-oss-120b`) (suggestions + chat)
 
