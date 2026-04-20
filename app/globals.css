@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    height: 100%;
+    background-color: #0a0b0e;
+    color: #f1f3f9;
+  }
+}
+
+@layer components {
+  .input {
+    @apply w-full bg-[#0a0b0e] border border-[#1e2330] rounded-lg px-3 py-2 text-sm text-gray-200 placeholder-gray-600 outline-none focus:border-indigo-500/60 transition-colors;
+  }
+
+  .custom-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #1e2330 transparent;
+  }
+
+  .custom-scroll::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .custom-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .custom-scroll::-webkit-scrollbar-thumb {
+    background: #1e2330;
+    border-radius: 2px;
+  }
+}
